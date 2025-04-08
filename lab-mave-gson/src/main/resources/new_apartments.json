@@ -1,0 +1,29 @@
+[
+  {
+    "id": "40c86091-9ecf-4676-8c69-7126563def42",
+    "address": "123 Main St",
+    "price": 1200.5,
+    "rooms": 3,
+    "description": "Spacious apartment with a view",
+    "owner": "John Doe",
+    "available": true
+  },
+  {
+    "id": "e3ac6075-a5a7-4402-a087-a877997bbdde",
+    "address": "456 Elm St",
+    "price": 950.75,
+    "rooms": 2,
+    "description": "Cozy apartment in a quiet neighborhood",
+    "owner": "Jane Smith",
+    "available": false
+  },
+  {
+    "id": "b9e9e1b3-e701-47a1-9252-fedf816ac5fc",
+    "address": "789 Oak St",
+    "price": 1500.0,
+    "rooms": 4,
+    "description": "Luxury apartment with modern amenities",
+    "owner": "Alice Johnson",
+    "available": true
+  }
+]
