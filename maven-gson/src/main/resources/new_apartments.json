@@ -1,0 +1,29 @@
+[
+  {
+    "id": "52f3df2b-c4bd-4761-828e-696091796f17",
+    "address": "calle 1",
+    "price": 120.5,
+    "rooms": 2,
+    "description": "apartamento amplio",
+    "owner": "Juan",
+    "available": true
+  },
+  {
+    "id": "e0ae9d5b-58e6-4098-835e-c69af026a3b7",
+    "address": "calle 2",
+    "price": 340.5,
+    "rooms": 3,
+    "description": "apartamento acogedor",
+    "owner": "Maria",
+    "available": true
+  },
+  {
+    "id": "2c1d5b2d-1c6f-40c3-97f7-c46d680ab896",
+    "address": "calle 3",
+    "price": 348.0,
+    "rooms": 4,
+    "description": "lujoso",
+    "owner": "Martina",
+    "available": true
+  }
+]
