@@ -1,0 +1,29 @@
+[
+  {
+    "id": 3781168156880096479,
+    "address": "Calle Mayor 123, Madrid",
+    "price": 1200.0,
+    "rooms": 3,
+    "description": "Luminoso piso en el centro con balcón y cocina equipada",
+    "owner": "Agencia López",
+    "available": true
+  },
+  {
+    "id": -5120883939890803279,
+    "address": "Avenida de Andalucía 45, Sevilla",
+    "price": 950.5,
+    "rooms": 2,
+    "description": "Acogedor apartamento cerca del parque, ideal para parejas",
+    "owner": "Inmobiliaria Sur",
+    "available": false
+  },
+  {
+    "id": -8812255763336379253,
+    "address": "Passeig de Gràcia 78, Barcelona",
+    "price": 1800.75,
+    "rooms": 4,
+    "description": "Ático de lujo con terraza privada y vistas a la ciudad",
+    "owner": "Grupo BCN Homes",
+    "available": true
+  }
+]
