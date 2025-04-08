@@ -1,32 +1,30 @@
 import java.util.UUID;
 
 public class Apartament {
-    private UUID id;
+    private String id;
     private String address;
     private double price;
     private int rooms;
-    private String  descripcion;
+    private String  description;
     private String owner;
     private  boolean available;
 
-    public Apartament(UUID id, String address, double price, int rooms,
-                      String descripcion, String owner, boolean available) {
-        this.id = UUID.randomUUID();
+    public Apartament( String address, double price, int rooms,
+                       String description, String owner, boolean available) {
+        this.id  =UUID.randomUUID().toString();
         this.address = address;
         this.price = price;
         this.rooms = rooms;
-        this.descripcion = descripcion;
+        this.description = description;
         this.owner = owner;
         this.available = available;
     }
 
-    public UUID getId() {
+    public String  getId() {
         return id;
     }
 
-    public void setId(UUID id) {
-        this.id = id;
-    }
+
 
     public String getAddress() {
         return address;
@@ -52,12 +50,12 @@ public class Apartament {
         this.rooms = rooms;
     }
 
-    public String getDescripcion() {
-        return descripcion;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getOwner() {
@@ -83,9 +81,16 @@ public class Apartament {
                 ", address='" + address + '\'' +
                 ", price=" + price +
                 ", rooms=" + rooms +
-                ", descripcion='" + descripcion + '\'' +
+                ", description='" + description + '\'' +
                 ", owner='" + owner + '\'' +
                 ", available=" + available +
                 '}';
     }
+
+
+//    public static void main(String[] args) {
+//        Apartament a1=new Apartament("Calle Falsa 123", 500.0, 3, "Amplio y " +
+//                "luminoso", "Juan Pérez", true);
+//        System.out.println(a1);
+//    }
 }
