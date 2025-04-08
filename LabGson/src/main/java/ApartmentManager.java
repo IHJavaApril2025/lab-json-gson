@@ -23,7 +23,7 @@ public class ApartmentManager {
         List<Apartment> apartments = new ArrayList<>();
         Collections.addAll(apartments, apartmentsArray);
 
-        System.out.println(apartments.get(0).toString());
+        //System.out.println(apartments.get(0).toString());//
         reader.close();
 
         /*
