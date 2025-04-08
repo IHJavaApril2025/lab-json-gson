@@ -15,7 +15,7 @@ public class ApartmentManager {
         //Creamos el constructor de GSON
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         //Leemos el archivo JSON
-        Reader reader = new FileReader("LaboratorioMAven/src/main/resources/apartments.json");
+        Reader reader = new FileReader("LabMaven2/src/main/resources/apartments.json");
         //Convertimos el Json a un array de objetos
         Apartment[] apartmentsArray = gson.fromJson(reader, Apartment[].class);
 

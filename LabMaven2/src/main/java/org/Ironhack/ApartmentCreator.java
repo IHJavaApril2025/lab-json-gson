@@ -26,7 +26,7 @@ public class ApartmentCreator {
 
 
         // Crear un FileWriter para escribir el archivo JSON
-        FileWriter writer = new FileWriter("LaboratorioMAven/src/main/resources/new_apartments.json");
+        FileWriter writer = new FileWriter("LabMaven2/src/main/resources/new_apartments.json");
 
         // Convertimos la lista de apartamentos a JSON y la escribimos en el archivo creado
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
