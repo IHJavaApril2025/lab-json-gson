@@ -1,0 +1,29 @@
+[
+  {
+    "id": "c79e568f-547c-4d0b-a95d-0c14dd396f46",
+    "address": "La Fabricas 32",
+    "price": 125.325,
+    "rooms": 4,
+    "description": "Piso acogedor",
+    "owner": "Idealista",
+    "available": true
+  },
+  {
+    "id": "4f543162-6da0-43c6-ba07-fb7e2edce41c",
+    "address": "El cerro 37",
+    "price": 258.321,
+    "rooms": 7,
+    "description": "Piso en reformas",
+    "owner": "Fotocasa",
+    "available": true
+  },
+  {
+    "id": "fe969444-06df-4432-a9b9-e999a5aa23ad",
+    "address": "La colmena 59",
+    "price": 326.457,
+    "rooms": 5,
+    "description": "Apartamento de lujo",
+    "owner": "milAnuncios",
+    "available": true
+  }
+]
