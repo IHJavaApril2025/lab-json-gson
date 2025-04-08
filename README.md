@@ -1,5 +1,7 @@
 # Lab Maven y Gson
 
+Modificación
+
 En este lab vamos a trabajar con Maven y la biblioteca Gson. Aprenderemos a convertir objetos JSON a objetos Java y viceversa, así como a trabajar con listas y arrays en Java.
 Es muy parecido a lo que hemos visto en clase, pero con algún extra 🤔
 
