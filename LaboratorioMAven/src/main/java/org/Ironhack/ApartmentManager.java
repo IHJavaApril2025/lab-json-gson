@@ -2,7 +2,7 @@ package org.Ironhack;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonElement;
+
 
 import java.io.*;
 
@@ -20,9 +20,13 @@ public class ApartmentManager {
         Apartment[] apartmentsArray = gson.fromJson(reader, Apartment[].class);
 
         //Creamos un ArrayList y añadimos los apartamentos
-        List<Apartment> apartments = new ArrayList<>();
-        Collections.addAll(apartments,apartmentsArray);
-        System.out.println(apartments.getFirst().toString());
+        List<Apartment> apartmentsList = new ArrayList<>();
+        Collections.addAll(apartmentsList,apartmentsArray);
+
+        for(Apartment apartment : apartmentsList){
+            System.out.println(apartment);
+        }
+
 
         reader.close();
     }

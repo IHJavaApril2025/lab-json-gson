@@ -1,6 +1,6 @@
 [
   {
-    "id": "d0eddc39-4839-4933-890d-e7e1852adc2d",
+    "id": "e65c6069-bf26-4d78-9298-0e62f23a2188",
     "address": "Calle Falsa 123",
     "price": 1200.5,
     "rooms": 3,
@@ -9,7 +9,7 @@
     "available": true
   },
   {
-    "id": "965ac3c2-141b-4326-9458-47deded79e0f",
+    "id": "52edb6c5-88ae-433d-9fbc-a42fe8a6c01f",
     "address": "Avenida Siempre Viva 742",
     "price": 1500.0,
     "rooms": 4,
@@ -18,7 +18,7 @@
     "available": false
   },
   {
-    "id": "193ddbb6-08f8-481c-9114-d2f14b1961e5",
+    "id": "962a45ce-eb93-4c45-b9b4-e357bffe1d27",
     "address": "Plaza Mayor 1",
     "price": 2000.0,
     "rooms": 5,

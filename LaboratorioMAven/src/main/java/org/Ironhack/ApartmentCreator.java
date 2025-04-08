@@ -17,7 +17,8 @@ public class ApartmentCreator {
         Apartment apartment1 = new Apartment("Calle Falsa 123", 1200.50, 3, "Apartamento acogedor", "Juan Pérez", true);
         Apartment apartment2 = new Apartment("Avenida Siempre Viva 742", 1500.00, 4, "Apartamento amplio", "María López", false);
         Apartment apartment3 = new Apartment("Plaza Mayor 1", 2000.00, 5, "Apartamento de lujo", "Pedro García", true);
-
+        Apartment apartment4 = new Apartment();
+        System.out.println(apartment4);
         // Añadimos los apartamentos a la lista
         newApartments.add(apartment1);
         newApartments.add(apartment2);

@@ -10,8 +10,12 @@ public class Apartment {
     private String owner;
     private Boolean available;
 
+    public Apartment(){
+       setId();
+    }
+
     public Apartment(String address, double price, int rooms, String description, String owner, Boolean available) {
-        this.id = UUID.randomUUID().toString();
+        setId();
         this.address = address;
         this.price = price;
         this.rooms = rooms;
@@ -72,6 +76,9 @@ public class Apartment {
         return id;
     }
 
+    public void setId() {
+        this.id = UUID.randomUUID().toString();
+    }
 
     @Override
     public String toString() {
