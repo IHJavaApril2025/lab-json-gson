@@ -20,6 +20,10 @@ public class Apartament {
         this.available = available;
     }
 
+    public Apartament() {
+        this.id=UUID.randomUUID().toString();
+    }
+
     public String  getId() {
         return id;
     }
