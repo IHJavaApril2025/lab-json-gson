@@ -1,0 +1,26 @@
+[
+  {
+    "id": "5903e327-57e6-4c98-84ce-a60c9eb3b42f",
+    "address": "Calle del fuego",
+    "rooms": 3,
+    "description": "Muy amplio",
+    "owner": "Tecnocasa",
+    "available": true
+  },
+  {
+    "id": "51e2d012-4317-447e-88c1-93668ba155b7",
+    "address": "Calle Real",
+    "rooms": 2,
+    "description": "Muy luminoso",
+    "owner": "Tecnocasa",
+    "available": true
+  },
+  {
+    "id": "198538cf-b77c-4032-8bee-c232de523eda",
+    "address": "Calle de la Magia",
+    "rooms": 1,
+    "description": "Pequeño",
+    "owner": "Tecnocasa",
+    "available": true
+  }
+]
