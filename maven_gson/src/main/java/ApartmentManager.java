@@ -28,9 +28,13 @@ public class ApartmentManager {
 
             }
 
+            reader.close();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+
 
     }
 }
