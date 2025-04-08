@@ -4,14 +4,16 @@ public class Apartment {
     private UUID id;
     private String address;
     private double price;
+    private int rooms;
     private String description;
     private String owner;
     private boolean available;
 
-    public Apartment (String address, double price, String description, String owner, boolean available) {
-        this.id = UUID.randomUUID();
+    public Apartment (String address, double price, int rooms, String description, String owner, boolean available) {
+        this.id = UUID.fromString(UUID.randomUUID().toString());
         setAddress(address);
         setPrice(price);
+        setRooms(rooms);
         setDescription(description);
         setOwner(owner);
         setAvailable(available);
@@ -31,9 +33,13 @@ public class Apartment {
     public double getPrice() {
         return price;
     }
+    public int getRooms() { return rooms; }
 
     public void setPrice(double price) {
         this.price = price;
+    }
+    public void setRooms(int rooms) {
+        this.rooms = rooms;
     }
 
     public String getDescription() {
@@ -60,10 +66,19 @@ public class Apartment {
         this.available = available;
     }
 
+    @Override
+    public String toString() {
+        return "Apartment{" +
+                "id=" + id +
+                ", address='" + address + '\'' +
+                ", price=" + price +
+                ", rooms=" + rooms +
+                ", description='" + description + '\'' +
+                ", owner='" + owner + '\'' +
+                ", available=" + available +
+                '}';
+        }
+    }
 
-
-
-
-}
 
 
