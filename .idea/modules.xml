@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/lab-maven-gson.iml" filepath="$PROJECT_DIR$/.idea/lab-maven-gson.iml" />
-      <module fileurl="file://$PROJECT_DIR$/maven_gson.iml" filepath="$PROJECT_DIR$/maven_gson.iml" />
     </modules>
   </component>
 </project>
