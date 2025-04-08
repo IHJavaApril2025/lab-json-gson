@@ -10,6 +10,10 @@ public class Apartment {
     private String owner;
     private boolean available;
 
+    public Apartment() {
+        setId();
+    }
+
     public Apartment(String address, double price, int rooms, String description, String owner, boolean available) {
         setId();
         setAddress(address);
@@ -24,7 +28,7 @@ public class Apartment {
         return id;
     }
 
-    public void setId() {
+    private void setId() {
         this.id = UUID.randomUUID().toString();
     }
 
