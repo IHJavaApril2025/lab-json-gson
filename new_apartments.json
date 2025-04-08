@@ -1,0 +1,38 @@
+[
+  {
+    "id": "31f29ee0-71eb-43a8-8ba2-3cdcda7a63bc",
+    "address": "C/Tomillo 5",
+    "price": 700.0,
+    "rooms": 3,
+    "description": "Apartamento luminoso cercade la sierra",
+    "owner": "Jose Pérez",
+    "available": true
+  },
+  {
+    "id": "d5c538a8-279b-41cd-8601-ae9f804e5475",
+    "address": "C/Edison",
+    "price": 1500.0,
+    "rooms": 4,
+    "description": "Muy moderno, amueblado",
+    "owner": "Rosa Ruiz",
+    "available": true
+  },
+  {
+    "id": "baad6953-7edc-4573-81f6-71edc87dbe61",
+    "address": "C/Capuchinos",
+    "price": 1100.0,
+    "rooms": 1,
+    "description": "Estudio acogedor en el centro",
+    "owner": "Carlos Lopez",
+    "available": false
+  },
+  {
+    "id": "a658e620-83ca-4b8a-b48f-3e2eb8a2fce9",
+    "address": "C/Lemus",
+    "price": 2000.0,
+    "rooms": 5,
+    "description": "Duplex con jardin",
+    "owner": "Joaquin Gomez",
+    "available": false
+  }
+]
