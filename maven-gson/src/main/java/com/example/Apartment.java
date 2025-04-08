@@ -20,6 +20,9 @@ public class Apartment {
         this.owner = owner;
         this.isAvailable = isAvailable;
     }
+    public Apartment(){
+        this.id = UUID.randomUUID().toString();
+    }
 
     public String getId() {
         return id;
