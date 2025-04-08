@@ -23,7 +23,7 @@ public class ApartmentCreator {
         System.out.println(newApartments);
 
         //añadimos archivo JSon con nueva lista
-        FileWriter writer = new FileWriter("./src/main/resources/new_apartments.son");
+        FileWriter writer = new FileWriter("./src/main/resources/new_apartments.json");
 
         Gson gson = new Gson();//me daba error sin hacer esto
         gson.toJson(newApartments, writer);
