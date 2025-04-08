@@ -1,0 +1,29 @@
+[
+  {
+    "id": "60402ae6-f183-4016-845b-81340de688d9",
+    "address": "123 Main St",
+    "price": 200000.0,
+    "rooms": 1,
+    "description": "Main St",
+    "owner": "James",
+    "available": true
+  },
+  {
+    "id": "9385cfec-8014-404a-9424-0891019e1d6a",
+    "address": "456 Elm St",
+    "price": 300000.0,
+    "rooms": 2,
+    "description": "Elm St",
+    "owner": "John",
+    "available": true
+  },
+  {
+    "id": "572d5600-1afc-4bba-ab0f-ffaf693044f6",
+    "address": "789 Oak St",
+    "price": 100000.0,
+    "rooms": 1,
+    "description": "Oak St",
+    "owner": "Peter",
+    "available": true
+  }
+]
