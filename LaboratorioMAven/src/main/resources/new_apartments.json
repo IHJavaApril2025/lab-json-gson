@@ -1,0 +1,29 @@
+[
+  {
+    "id": "d0eddc39-4839-4933-890d-e7e1852adc2d",
+    "address": "Calle Falsa 123",
+    "price": 1200.5,
+    "rooms": 3,
+    "description": "Apartamento acogedor",
+    "owner": "Juan Pérez",
+    "available": true
+  },
+  {
+    "id": "965ac3c2-141b-4326-9458-47deded79e0f",
+    "address": "Avenida Siempre Viva 742",
+    "price": 1500.0,
+    "rooms": 4,
+    "description": "Apartamento amplio",
+    "owner": "María López",
+    "available": false
+  },
+  {
+    "id": "193ddbb6-08f8-481c-9114-d2f14b1961e5",
+    "address": "Plaza Mayor 1",
+    "price": 2000.0,
+    "rooms": 5,
+    "description": "Apartamento de lujo",
+    "owner": "Pedro García",
+    "available": true
+  }
+]
