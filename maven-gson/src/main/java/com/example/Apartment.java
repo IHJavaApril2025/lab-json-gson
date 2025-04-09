@@ -3,7 +3,7 @@ package com.example;
 import java.util.UUID;
 
 public class Apartment {
-    private String id;
+    private final String id;
     private String address;
     private double price;
     private int rooms;
@@ -11,7 +11,7 @@ public class Apartment {
     private String owner;
     private boolean isAvailable;
 
-    public Apartment(String id, String address, double price, int rooms, String description, String owner, boolean isAvailable) {
+    public Apartment(String address, double price, int rooms, String description, String owner, boolean isAvailable) {
         this.id = UUID.randomUUID().toString();
         this.address = address;
         this.price = price;
@@ -28,11 +28,7 @@ public class Apartment {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getAddress() {
+   public String getAddress() {
         return address;
     }
 
