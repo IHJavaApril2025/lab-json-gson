@@ -21,9 +21,9 @@ Es muy parecido a lo que hemos visto en clase, pero con algún extra 🤔
 
 👁️ Hay otra dependencia que es gson-parent que nos puede confundir.
 
-## Iteración 1: Clase Apartment
+## Iteración 1: Clase Apartament
 
-Vamos a crear una clase `Apartment` que contenga los siguientes atributos:
+Vamos a crear una clase `Apartament` que contenga los siguientes atributos:
 
 - `id` (long)
 - `address` (String)
@@ -44,7 +44,7 @@ Añade los getters y setters así como el .toString() para que imprima todos los
 ```java
 import java.util.UUID;
 
-public class Apartment {
+public class Apartament {
 
         private long id;
         private String address;
@@ -54,7 +54,7 @@ public class Apartment {
         private String owner;
         private boolean available;
 
-        public Apartment(String address, double price, int rooms, String description, String owner, boolean available) {
+        public Apartament(String address, double price, int rooms, String description, String owner, boolean available) {
                 // Generar un UUID para el id
                 this.id = UUID.randomUUID().toString();
                 setAddress(address);
@@ -119,7 +119,7 @@ public class Apartment {
 
         @Override
         public String toString() {
-                return "Apartment{" +
+                return "Apartament{" +
                                 "id=" + id +
                                 ", address='" + address + '\'' +
                                 ", price=" + price +
@@ -140,11 +140,11 @@ Tenemos un archivo JSON en la raíz de este proyecto llamado `apartments.json` q
 Vamos a moverlo a la carpeta `src/main/resources` para que Maven lo reconozca como un recurso del proyecto.
 De momento no lo vamos a modificar.
 
-## Iteración 3: Leer el archivo JSON y convertirlo a una lista de objetos Apartment
+## Iteración 3: Leer el archivo JSON y convertirlo a una lista de objetos Apartament
 
-Vamos a crear una clase `ApartmentManager` que se encargue de leer el archivo JSON y convertirlo a una lista de objetos `Apartment` utilizando Gson. Puedes gestionarlo todo dentro del método `main` de la clase `ApartmentManager` (recuerda que puedes escribir psvm en IntelliJ para hacerlo de forma automática).
+Vamos a crear una clase `ApartmentManager` que se encargue de leer el archivo JSON y convertirlo a una lista de objetos `Apartament` utilizando Gson. Puedes gestionarlo todo dentro del método `main` de la clase `ApartmentManager` (recuerda que puedes escribir psvm en IntelliJ para hacerlo de forma automática).
 
-Puedes usar el ejemplo que hemos visto en clase para leer el archivo JSON y convertirlo a una lista de objetos `Apartment`. Allí hemos usado un ArrayList para almacenar los elementos.
+Puedes usar el ejemplo que hemos visto en clase para leer el archivo JSON y convertirlo a una lista de objetos `Apartament`. Allí hemos usado un ArrayList para almacenar los elementos.
 
 _Tip extra:_ Para añadir todos los apartamentos a una lista, puedes usar el método estático `Collections.addAll()` de la clase `Collections`. [Consulta un tutorial](https://medium.com/@AlexanderObregon/javas-collections-addall-explained-fbed9a316bb2)
 
@@ -160,11 +160,11 @@ public class ApartmentManager {
         // Leer el archivo JSON
         Reader reader = new FileReader("src/main/resources/apartments.json");
 
-        // Convertir el JSON a un array de objetos Apartment
-        Apartment[] apartmentsArray = gson.fromJson(reader, Apartment[].class);
+        // Convertir el JSON a un array de objetos Apartament
+        Apartament[] apartmentsArray = gson.fromJson(reader, Apartament[].class);
 
         // Crear un ArrayList y añadir los apartamentos
-        List<Apartment> apartments = new ArrayList<>();
+        List<Apartament> apartments = new ArrayList<>();
         Collections.addAll(apartments, apartmentsArray);
 
         // Ver un apartamento, para comprobar que funciona
@@ -180,7 +180,7 @@ public class ApartmentManager {
 
 ## Iteración 4: Apartamentos nuevos
 
-Vamos a crear la clase `ApartmentCreator` en la cual generaremos tres o cuatro variables de tipo `Apartment` y las almacenaremos en una lista. Lo puedes hacer todo en el método `main` de la clase `ApartmentCreator`.
+Vamos a crear la clase `ApartmentCreator` en la cual generaremos tres o cuatro variables de tipo `Apartament` y las almacenaremos en una lista. Lo puedes hacer todo en el método `main` de la clase `ApartmentCreator`.
 
 <details>
     <summary>Solución</summary>
@@ -189,12 +189,12 @@ Vamos a crear la clase `ApartmentCreator` en la cual generaremos tres o cuatro v
 public class ApartmentCreator {
     public static void main(String[] args) {
         // Crear una lista de apartamentos
-        List<Apartment> newApartments = new ArrayList<>();
+        List<Apartament> newApartments = new ArrayList<>();
 
         // Crear nuevos apartamentos
-        Apartment apartment1 = new Apartment("Calle Falsa 123", 1200.50, 3, "Apartamento acogedor", "Juan Pérez", true);
-        Apartment apartment2 = new Apartment("Avenida Siempre Viva 742", 1500.00, 4, "Apartamento amplio", "María López", false);
-        Apartment apartment3 = new Apartment("Plaza Mayor 1", 2000.00, 5, "Apartamento de lujo", "Pedro García", true);
+        Apartament apartment1 = new Apartament("Calle Falsa 123", 1200.50, 3, "Apartamento acogedor", "Juan Pérez", true);
+        Apartament apartment2 = new Apartament("Avenida Siempre Viva 742", 1500.00, 4, "Apartamento amplio", "María López", false);
+        Apartament apartment3 = new Apartament("Plaza Mayor 1", 2000.00, 5, "Apartamento de lujo", "Pedro García", true);
 
         // Añadir los apartamentos a la lista
         newApartments.add(apartment1);

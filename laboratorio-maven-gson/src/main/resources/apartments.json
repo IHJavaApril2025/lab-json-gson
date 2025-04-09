@@ -1,0 +1,194 @@
+[
+  {
+    "address": "Calle de la Alameda, 24, Madrid",
+    "price": 1400.00,
+    "rooms": 4,
+    "description": "Apartamento amplio y bien situado, con balcón y vistas al centro.",
+    "owner": "Madrid Homes",
+    "available": true
+  },
+  {
+    "address": "Paseo de la Castellana, 275, Madrid",
+    "price": 3200.70,
+    "rooms": 5,
+    "description": "Elegante piso futurista en el corazon de Madrid, con detalles de lujo.",
+    "owner": "Inmobilaria Castellana",
+    "available": false
+  },
+  {
+    "address": "Avenida de la Ilustración, 45, Sevilla",
+    "price": 720.15,
+    "rooms": 3,
+    "description": "Apartamento típico en una zona única de la ciudad, ideal para parejas.",
+    "owner": "Nervión Homes",
+    "available": true
+  },
+  {
+    "address": "Calle Las Cortes, 3, Cádiz",
+    "price": 545.00,
+    "rooms": 2,
+    "description": "Piso con encanto en la zona del Gran Teatro Falla, con terraza y vistas al mar.",
+    "owner": "Pisos La Tacita de Plata",
+    "available": true
+  },
+  {
+    "address": "Calle Mirador de Alanda, 12, Madrid",
+    "price": 1375.60,
+    "rooms": 3,
+    "description": "Luminoso piso en el sector Jardines del Prado, cerca de comercios y parques.",
+    "owner": "Inmobiliaria NovaVida",
+    "available": true
+  },
+  {
+    "address": "Avenida Colinas de Artea, 54, Bilbao",
+    "price": 1210.00,
+    "rooms": 2,
+    "description": "Apartamento con estilo moderno en zona tranquila y bien comunicada.",
+    "owner": "Viviendas Eltar",
+    "available": false
+  },
+  {
+    "address": "Paseo de las Cumbres, 300, Valencia",
+    "price": 890.20,
+    "rooms": 2,
+    "description": "Piso ideal para jóvenes en barrio residencial con buena conexión al centro.",
+    "owner": "Urbania Flats",
+    "available": true
+  },
+  {
+    "address": "Ronda del Viento, 29, Sevilla",
+    "price": 845.75,
+    "rooms": 2,
+    "description": "Apartamento con terraza interior en urbanización Los Cipreses.",
+    "owner": "SurAndaluz Housing",
+    "available": true
+  },
+  {
+    "address": "Calle Lirio Azul, 17, Madrid",
+    "price": 1645.90,
+    "rooms": 4,
+    "description": "Piso espacioso con acabados de alta gama en la zona de Altomonte.",
+    "owner": "Altura Urbana",
+    "available": false
+  },
+  {
+    "address": "Avenida Brisa Marina, 85, Valencia",
+    "price": 1320.00,
+    "rooms": 3,
+    "description": "Moderno apartamento con vistas panorámicas y acceso a zonas verdes.",
+    "owner": "Oasis Levante",
+    "available": true
+  },
+  {
+    "address": "Calle Encina Dorada, 22, Sevilla",
+    "price": 960.00,
+    "rooms": 2,
+    "description": "Piso tradicional con techos altos en el barrio de La Parra.",
+    "owner": "Viviendas Patrimonia",
+    "available": true
+  },
+  {
+    "address": "Callejón del Río Claro, 45, Bilbao",
+    "price": 1440.35,
+    "rooms": 3,
+    "description": "Apartamento de diseño con balcón y cocina abierta, ideal para familias.",
+    "owner": "EuskoVivienda",
+    "available": false
+  },
+  {
+    "address": "Vía de la Luz, 77, Madrid",
+    "price": 1255.80,
+    "rooms": 3,
+    "description": "Piso con detalles únicos en zona residencial de Monte Alto.",
+    "owner": "Grupo Galia",
+    "available": true
+  },
+  {
+    "address": "Plaza del Almendro, 9, Sevilla",
+    "price": 880.25,
+    "rooms": 2,
+    "description": "Apartamento acogedor en edificio histórico restaurado.",
+    "owner": "SolSur Inmuebles",
+    "available": false
+  },
+  {
+    "address": "Avenida de los Pinares, 101, Valencia",
+    "price": 1015.40,
+    "rooms": 2,
+    "description": "Apartamento en entorno natural con zonas comunes y pista de pádel.",
+    "owner": "Residencias SolPoniente",
+    "available": true
+  },
+  {
+    "address": "Camino del Cerezo, 3, Madrid",
+    "price": 1780.00,
+    "rooms": 4,
+    "description": "Elegante vivienda en zona alta con vistas a la ciudad.",
+    "owner": "Monteblanco Residences",
+    "available": true
+  },
+  {
+    "address": "Bulevar del Horizonte, 56, Bilbao",
+    "price": 1500.25,
+    "rooms": 3,
+    "description": "Apartamento nuevo con plaza de garaje incluida y excelente orientación.",
+    "owner": "Altair Gestión",
+    "available": false
+  },
+  {
+    "address": "Travesía Jardín Escondido, 14, Sevilla",
+    "price": 935.90,
+    "rooms": 2,
+    "description": "Piso reformado con encanto andaluz en calle peatonal.",
+    "owner": "VivirSevilla Real Estate",
+    "available": true
+  },
+  {
+    "address": "Calle del Ocaso, 108, Valencia",
+    "price": 1125.70,
+    "rooms": 3,
+    "description": "Apartamento amplio en zona universitaria con servicios a pocos metros.",
+    "owner": "Campus Habitat",
+    "available": true
+  },
+  {
+    "address": "Vía del Sauce Blanco, 40, Bilbao",
+    "price": 1380.00,
+    "rooms": 3,
+    "description": "Vivienda moderna en el sector Surarte, bien conectada al centro.",
+    "owner": "Bilvarra Modern Homes",
+    "available": false
+  },
+  {
+    "address": "Calle Miraloma, 67, Madrid",
+    "price": 1150.00,
+    "rooms": 2,
+    "description": "Apartamento funcional cerca del parque Río Verde y zonas deportivas.",
+    "owner": "Mirador Urbana",
+    "available": true
+  },
+  {
+    "address": "Ronda del Olmo Rojo, 24, Sevilla",
+    "price": 880.50,
+    "rooms": 2,
+    "description": "Piso exterior en barrio tranquilo, con buena ventilación y luz natural.",
+    "owner": "Suroeste Real Estate",
+    "available": true
+  },
+  {
+    "address": "Plazuela de la Niebla, 5, Valencia",
+    "price": 1085.90,
+    "rooms": 3,
+    "description": "Apartamento minimalista con cocina equipada y suelos porcelánicos.",
+    "owner": "NovaLevante",
+    "available": true
+  },
+  {
+    "address": "Camino de Lunas Altas, 11, Bilbao",
+    "price": 990.00,
+    "rooms": 2,
+    "description": "Apartamento acogedor con vista a las colinas de Ardania.",
+    "owner": "Elkar Homes",
+    "available": false
+  }
+]

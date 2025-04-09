@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "1ebb370e-29bf-4f54-9322-32d45373d5da",
+    "address": "Calle Balcanes",
+    "price": 820.0,
+    "rooms": 3,
+    "description": "Piso amplio y céntrico",
+    "owner": "Antonio Alonso",
+    "available": true
+  },
+  {
+    "Id": "a4ba8bf2-2b5f-4590-b1e4-0fdc57605865",
+    "address": "Avenida La Paz 84",
+    "price": 1150.0,
+    "rooms": 4,
+    "description": "Amplio piso y luminoso",
+    "owner": "Adriana López",
+    "available": false
+  },
+  {
+    "Id": "67264b4a-1f67-45bf-a181-5d2e88e647fb",
+    "address": "Plaza del Sol 17",
+    "price": 710.0,
+    "rooms": 2,
+    "description": "Apartamento cuco con vistas",
+    "owner": "Andrés Benítez",
+    "available": true
+  },
+  {
+    "Id": "6a647c7e-d656-4bfa-9164-3dea7f23d965",
+    "address": "Calle de la Palma 7",
+    "price": 2100.0,
+    "rooms": 5,
+    "description": "Dúplex con vistas",
+    "owner": "Susana Ruiz",
+    "available": true
+  }
+]
