@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class ApartmentManager {
     public static void main(String[] args) throws FileNotFoundException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        File file = new File("apartments.json");
+        File file = new File("lab-mave-gson/src/main/resources/apartments.json");
         Scanner scanner = new Scanner(file);
         StringBuilder json = new StringBuilder();
         while (scanner.hasNextLine()) {
@@ -22,5 +22,7 @@ public class ApartmentManager {
         Apartment[] apartments = gson.fromJson(json.toString(), Apartment[].class);
         List<Apartment> apartmentsList = new ArrayList<>();
         Collections.addAll(apartmentsList, apartments);
+
+        System.out.println(apartmentsList);
     }
 }

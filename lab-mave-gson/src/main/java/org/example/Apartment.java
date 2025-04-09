@@ -34,6 +34,10 @@ public class Apartment {
         this.available = available;
     }
 
+    public Apartment() {
+        this.id = UUID.randomUUID();
+    }
+
     public UUID getId() {
         return id;
     }
