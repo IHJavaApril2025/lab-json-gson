@@ -1,12 +1,16 @@
 package com.example;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ApartmentCreator {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         //Creo lista
-        List<Apartment> newAparments = new ArrayList<>();
+        List<Apartment> newApartments = new ArrayList<>();
 
 
         //nuevos pisos
@@ -15,12 +19,22 @@ public class ApartmentCreator {
         Apartment apartment3 = new Apartment("Carrer Moldavia 876", 87933.88, 2, "Bien ubicado","Patricia Lexter",true );
 
         //añado
-        newAparments.add(apartment1);
-        newAparments.add(apartment2);
-        newAparments.add(apartment3);
+        newApartments.add(apartment1);
+        newApartments.add(apartment2);
+        newApartments.add(apartment3);
 
 
         //compruebo
-        System.out.println(newAparments);
+        //System.out.println(newAparments);
+
+
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        //creo archivo JSON
+        FileWriter writer = new FileWriter("maven-gson/src/main/resources/new_apartments.json");
+        // listas a JSON
+        gson.toJson(newApartments, writer);
+
+        writer.close();
+
     }
 }

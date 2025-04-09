@@ -1,0 +1,29 @@
+[
+  {
+    "id": "fb513260-c92b-4583-9dea-5b3347fcb4de",
+    "address": "Calle Blanca 2",
+    "price": 234433.89,
+    "rooms": 4,
+    "description": "Hermoso apartamento bien ubicado",
+    "owner": "Maria Gracia Bermont",
+    "isAvailable": true
+  },
+  {
+    "id": "2087ef55-5297-4508-92d7-b95727c11176",
+    "address": "Calle Braviera 998",
+    "price": 2132312.0,
+    "rooms": 2,
+    "description": "Amplios ambientes, mucha luz",
+    "owner": "Tomas Garcia",
+    "isAvailable": true
+  },
+  {
+    "id": "f11ddea2-86cd-4bb6-88f1-c36143523c4e",
+    "address": "Carrer Moldavia 876",
+    "price": 87933.88,
+    "rooms": 2,
+    "description": "Bien ubicado",
+    "owner": "Patricia Lexter",
+    "isAvailable": true
+  }
+]
