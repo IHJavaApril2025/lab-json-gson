@@ -18,6 +18,9 @@ public class Apartment {
         setOwner(owner);
         setAvailable(available);
     }
+    public Apartment(UUID id) {
+        this.id = UUID.fromString(UUID.randomUUID().toString());
+    }
 
     public UUID getId() {
         return id;
